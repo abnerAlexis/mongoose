@@ -17,3 +17,19 @@ scripts should look like the following
     "devStart": "nodemon script.js"
   },
 ```
+
+### run the following in terminal - "devStart"
+```
+    npm run devStart
+```
+This will run the code in script.js
+
+### import the mongoose library
+```
+    const mongoose = require('mongoose');
+```
+
+### Connect to mongodb
+```
+    mongoose.connect("mongodb://localhost/testdb");
+```
